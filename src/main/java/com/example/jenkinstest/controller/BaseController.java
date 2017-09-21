@@ -15,7 +15,7 @@ public class BaseController {
     @ResponseBody
     public ResponseVO index() {
         ResponseVO responseVO = new ResponseVO();
-        responseVO.setResult("[branch:master]jenkins-test!");
+        responseVO.setResult("[branch:20170921]jenkins-test!");
         return responseVO;
     }
 
